@@ -1,0 +1,473 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h2g{
+    color: white;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	margin: 2em 12em 2em 12em;	
+}
+ol, ul {
+	list-style: none;
+	display: inline;
+}
+
+blockquote:before{
+	position:absolute;
+	bottom:-29px;
+	left: 20px;
+	width:0;
+	height:30px;
+	border-right: 60px solid #419ca6;
+	background:#419ca6;
+	border-bottom-right-radius: 40px 50px;
+	-moz-border-radius-bottomright: 40px 50px;
+	-webkit-border-bottom-right-radius: 40px 50px;
+	z-index:2;
+}
+
+blockquote:after{
+    position:absolute;
+    left:2px;
+    bottom:-30px;
+    width:60px;
+    height:30px;
+    background: white;
+    -webkit-border-bottom-right-radius: 40px 50px;
+    z-index:2;
+    border-bottom-right-radius: 40px 50px;
+    -moz-border-radius-bottomright: 40px 50px;
+}
+	
+.clearfix::after{
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content: "";
+	clear: both;
+	display:table;
+}
+
+nav#global a{
+text-decoration:none;
+color:#ecf0f1;
+text-align: center;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+font-family: '1942 report';
+src: url('1942.ttf');
+src: local(' '), 
+url('1942.ttf') format('truetype');
+}
+
+hgroup h1 {
+font: 48px/54px "1942 report", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: #1763A6;
+text-shadow: 2px 2px 0 #650000, 0 0 10px rgba(255,255,255,0.7);
+}
+
+nav#global{
+background-color:#2980b9;
+border-radius: 0px;
+padding: 30px 0 30px 0;
+}
+
+body{
+	background-image: url(Background3.0.jpg);
+	}
+
+.topnavigatie{
+	box-shadow: inset 0 0 15px #900, inset 0 35px 35px -18px #ca0000, 0 0 20px #446b6b;
+	-moz-box-shadow: inset 0 0 15px #900, 0 0 20px #446b6b;
+	-webkit-box-shadow: inset 0 0 20px #446b6b;
+	}
+
+
+nav#global{
+margin: 0 0 20px 5px;
+background-image: -moz-linear-gradient(bottom, #419CA6,#1763A6);
+background-image: -webkit-linear-gradient(linear, left bottom, left top, color-stop(o, #419CA6), color-stop(1, #1763A6));
+text-transform: uppercase;
+padding: 30px 0 30px 0;
+text-align: center;
+box-shadow: inset 0 0 15px #104473, inset 0 -35px 35px -18px #419CA6, 0 0 20px #104473;
+-moz-box-shadow: inset 0 0 15px #900, 0 0 20px #446b6b;
+-webkit-box-shadow: inset 0 0 20px #446b6b;
+}
+
+nav#global a{
+text-decoration: none;
+color:#ecf0f1;
+width: 150px;
+}
+
+nav#global ul li #subMenu li{
+display: block;
+margin: 0 auto;
+text-align:center;
+} 
+
+nav#global ul li{
+margin: 0 auto;
+position: relative;
+display: inline;
+margin: 0 30px 0 30px;
+}
+
+#services:hover > #subMenu { z-index: 2;}
+#services:hover > #subMenu li a { height: 40px; line-height: 40px;
+}
+
+#services a {
+transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+
+
+nav#global ul li{
+display: inline;
+}
+
+nav#global ul li a:hover{
+border:none;
+box-shadow: inset 0 0 15px #104473, inset 0 -35px 35px -18px #419CA6, 0 0 20px #104473;
+-moz-box-shadow: inset 0 0 15px #900, 0 0 20px #446b6b;
+-webkit-box-shadow: inset 0 0 20px #446b6b;
+background-image: -moz-linear-gradient(bottom, #419CA6,#1763A6);
+background-image: -webkit-linear-gradient(linear, left bottom, left top, color-stop(o, #419CA6), color-stop(1, #1763A6));
+padding: 29px 15px 29px 15px;
+}
+
+
+
+#services:hover > #subMenu { z-index: 2;}
+#services:hover > #subMenu li a { height: 40px; line-height: 40px;
+}
+	
+	
+#services a {
+transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+
+div#content{
+	float:left;
+	width: 750px;
+	margin-right:30px;
+}
+
+article{
+background-color: #ecf0f1;
+border-radius: 20px;
+margin:0 0 30px 0;
+padding: 35px 0 40px 0;
+box-shadow: initial 0 0 15px #900, initial 0 35px 35px -18px #ca0000, 0 0 20px #446b6b;
+	-moz-box-shadow: initial 0 0 15px #900, 0 0 20px #446b6b;
+	-webkit-box-shadow: initial 0 0 20px #446b6b;
+width: 550px;
+}
+
+article a.tags{
+color:#2980b9;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.button{
+display: block;
+color: #fff;
+border-radius: 10px;
+padding: 0 10px 0 35px;
+height: 34px;
+line-height: 34px;
+margin-top: -10px;
+position: relative;
+background-color: #1763A6;
+box-shadow: inset 0 -35px 35px -18px #419ca6, inset 3px 0 12px #600;
+background-image: -moz-linear-gradient(top, #1763A6, #419ca6);
+background-image: -webkit-gradient(linear,left top, left bottom, color-stop(0 #1763A6), color-stop(1, #419ca6));
+-moz-transition:all, 0.5s ease-out;
+-webkit-transition: all, 0.5s ease-out;
+float:right;
+left:-50px;
+text-decoration:none;
+}
+
+article strong{
+font-weight: bold;
+}
+
+article em{
+font-style: italic;
+margin: 0 0 0 30px;
+}
+
+article p{
+margin: 58px 50px 15px 40px;
+}
+
+
+article header h1{
+    margin: -34px 130px -21px 130px;
+		font-size: 1.4em;
+		text-align:center;
+		color:#ecf0f1;
+}
+.time{
+    background-image: -moz-linear-gradient(bottom, #419CA6,#1763A6);
+    background-image: -webkit-linear-gradient(linear, left bottom, left top, color-stop(o, #419CA6), color-stop(1, #1763A6));
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 17px 0 24px;
+	padding: 0 142px 0 0;
+}
+.year{
+    background: #2c3e50;
+    width: 40px;
+    height: 40px;
+    transform: rotate(270deg);
+    border-radius: 20px 20px 0 0;
+    margin: -1px 0 4px -1px;
+	color:#ecf0f1;
+	line-height: 47px;
+	text-align:center;
+}
+.date{
+    background: #2c3e50;
+    width: 40px;
+    height: 40px;
+    margin: -44px 0 0 39px;
+	color:#ecf0f1;
+	text-align:center;
+	line-height:19px;
+}
+.comments{
+    font-size:16px;
+	font-weight: bold;
+	float:right;
+	line-height:40px;
+	width:60px;
+	height:40px;
+	text-align:center;
+	background-color:#2c3e50;
+	margin: -7.5px 20px 0 0;
+	border-radius:20px;
+}
+article span.newline{
+display: block;
+}
+
+.button:before{
+	content: "";
+	background-color:#ecf0f1;
+	position:absolute;
+	top:0;
+	left:-10px;
+	height: 34px;
+	width:30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+}
+
+.button:hover{
+	border:none;
+	box-shadow: inset 0 -35px 35px -18px #419CA6, inset 3px 0 12px #600;
+	background-image: -moz-linear-gradient(top, #1763A6, #419CA6);
+	background-image: -webkit-linear-gradient(linear, left top, left bottom, color-stop(0,#1763A6) color-stop(0, #419CA6));
+	padding-left:30px;
+}
+
+aside{
+	background-color:#ecf0f1;
+	float:right;
+	border-radius: 20px;
+	width:250px;
+	height:500px;
+	padding: 10px;
+}
+
+aside nav li{
+color:#3498db;
+text-decoration:none;
+margin: 0 0 0 0px;
+font-size: 1.05em;
+border-bottom: 1px solid #2ecc71;
+}
+
+aside h1{
+background-color:#2980b9;
+border-radius:10px;
+margin: 10px 0 20px 4px;
+font-size: 1.1em;
+color:#ecf0f1;
+padding: 6px 0 6px 23px;
+width: 220px;
+background-image: -moz-linear-gradient(top, #419ca6, #1763A6);
+background-image: -webkit-gradient(linear,left top, left bottom, color-stop(0, #419ca6), color-stop(1, #1763A6));
+}
+
+aside nav li:hover{
+	margin-left: 20px;
+	transition: all, 1s ease-out;
+}
+
+aside blockquote{
+	background-image: -moz-linear-gradient(top, #419ca6, #1763A6);
+    background-image: -webkit-gradient(linear,left top, left bottom, color-stop(0, #419ca6), color-stop(1, #1763A6));
+	background-color: red;
+	border-radius:10px;
+	padding:20px 10px 20px 10px;
+	margin-top: 25px;
+	color:#ecf0f1;
+	margin-bottom: 45px;
+	font-size: 1.05em;
+	position:relative;
+}
+
+aside blockquote p{
+	margin: 0 15px 0 15px;
+	font-style:italic;
+}
+
+aside a{
+	color:#3498db;
+}
+
+footer section{
+	background-color:#ecf0f1;
+	float:left;
+	border-radius: 10px;
+	width: 325px;
+	height:250px;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	color:#3498db;
+	position:relative;
+}
+
+footer section h1{
+	background-color:#2980b9;
+border-radius:10px;
+margin: 10px 0 20px 4px;
+font-size: 1.1em;
+color:#ecf0f1;
+padding: 6px 0 6px 23px;
+width: 250px;
+background-image: -moz-linear-gradient(top, #419ca6, #1763A6);
+background-image: -webkit-gradient(linear,left top, left bottom, color-stop(0, #419ca6), color-stop(1, #1763A6));
+}
+
+footer section li{
+	color:#3498db;
+text-decoration:none;
+margin: 0 0 10px 10px;
+border-bottom: 1px solid #2ecc71;
+width: 300px;
+}
+
+footer section p{
+	margin: 0 0 0 10px;
+}
+
+.ietsjelanger{
+	background-color:#ecf0f1;
+	float:left;
+	border-radius: 10px;
+	width: 350px;
+	height:300px;
+	padding: 10px;
+	margin: 0 25px 0 25px;
+}
+
+footer section li:hover{
+	margin-left: 20px;
+	transition: all, 1s ease-out;
+}
+
+hgroup{
+	margin: 0 0 0 25px;
+}
+
+footer section em{
+	color:#95a5a6;
+	float:right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.blokl{
+height: 75px;
+width: 700px;
+float: left;
+border-radius: 20px;
+padding: 2em;
+margin: 30px 0 0 30px;
+float: left;
+margin: 0 10px 0 10px;
+text-decoration: none;
+	background-color: white;
+	box-shadow: inset 0 35px 35px -18px #ecf0f1, inset 3px 0 12px #bdc3c7;
+	background-image: -moz-linear-gradient(top, #ecf0f1, #bdc3c7);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,
+	#ecf0f1),color-stop(1, #ecf0f1));
+	-o-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+text-align: center;
+	
+}
+
